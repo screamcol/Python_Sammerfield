@@ -44,5 +44,3 @@ try:
 
 except ValueError:
     input('Amount of lines should be int')
-#except TypeError:
-#    input('Amount of lines should be int')
