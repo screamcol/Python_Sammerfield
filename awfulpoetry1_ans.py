@@ -2,7 +2,7 @@ import random
 
 articles = ['the', 'a', 'an']
 nouns = ['wind', 'swimming', 'pot', 'mouse', 'cat', 'dog', 'house', 'car']
-verbs = ['sang', 'ran', 'jumped', 'cry', 'clap', 'eat', 'ask']
+verbs = ['sang', 'run', 'jumped', 'cry', 'clap', 'eat', 'ask']
 adverbs = ['loudly', 'quietly', 'well', 'badly', 'honestly', 'clearly']
 
 i = 0
