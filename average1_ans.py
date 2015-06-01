@@ -6,7 +6,7 @@ while True:
     number_user = input('enter a number or Enter to finish: ')
     try:
         number = int(number_user)
-        count += 1
+        #count += 1
         numbers.append(number)
     except ValueError:
         if number_user == '' and len(numbers) > 0:
