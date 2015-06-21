@@ -37,13 +37,22 @@ while True:
         sort_list.append(numbers[0])
         break
 
-print(sort_list)
 
-summa = sum(numbers)
-lowest = min(numbers)
-highest = max(numbers)
-average = summa / len(numbers)
+count = len(sort_list)
+summa = sum(sort_list)
+lowest = min(sort_list)
+highest = max(sort_list)
+average = summa / len(sort_list)
 
-print('numbers: {0} \n'.format(numbers))
-print('count = {0} sum = {1}  lowest = {2}  highest = {3} mean = {4} '.format(count, summa, lowest, highest, average))
+if len(sort_list) % 2 != 0:
+    middle_of_list = len(sort_list)//2
+    mediana = sort_list[middle_of_list]
+else:
+    middle_low = sort_list[(len(sort_list)//2) - 1]
+    middle_high = sort_list[(len(sort_list)//2)]
+    mediana = (middle_low + middle_high) / 2
+
+
+print('numbers: {0} \n'.format(sort_list))
+print('count = {0} sum = {1}  lowest = {2}  highest = {3} mean = {4} mediana {5}'.format(count, summa, lowest, highest, average, mediana))
 
